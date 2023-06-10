@@ -5,6 +5,11 @@ import Login from "../pages/Login/Login";
 import Trainings from "../pages/Trainings/Trainings";
 import Trainers from "../pages/Trainers/Trainers";
 import Signup from "../pages/Signup/Signup";
+import ErrorPage from "../pages/Error/ErrorPage";
+import DashBorad from "../Layout/DashBorad";
+import SelectedClass from "../pages/Dashboard/SelectedClass/SelectedClass";
+import MyClass from "../pages/Dashboard/MyClass/MyClass";
+import AllUsers from "../pages/Dashboard/AllUsers/AllUsers";
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +35,28 @@ export const router = createBrowserRouter([
       {
         path: "/signup",
         element: <Signup></Signup>,
+      },
+      {
+        path: "*",
+        element: <ErrorPage></ErrorPage>,
+      },
+    ],
+  },
+  {
+    path: "dashboard",
+    element: <DashBorad></DashBorad>,
+    children: [
+      {
+        path: "selectedClass",
+        element: <SelectedClass></SelectedClass>,
+      },
+      {
+        path: "myClass",
+        element: <MyClass></MyClass>,
+      },
+      {
+        path: "allUsers",
+        element: <AllUsers></AllUsers>,
       },
     ],
   },

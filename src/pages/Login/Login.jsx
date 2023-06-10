@@ -3,6 +3,8 @@ import { useContext, useEffect } from "react";
 
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
+import SocialLogin from "./SocialLogin";
+
 // import { Helmet } from "react-helmet-async";
 // import Swal from "sweetalert2";
 // import SocialLogin from "../Shared/SocialLogin/SocialLogin";
@@ -117,7 +119,7 @@ const Login = () => {
                 New Here? <Link to="/signup">Create an account</Link>{" "}
               </small>
             </p>
-            {/* <SocialLogin></SocialLogin> */}
+            <SocialLogin></SocialLogin>
           </div>
         </div>
       </div>
