@@ -1,6 +1,8 @@
-import { useEffect, useState } from "react";
+import React from "react";
+import { useEffect } from "react";
+import { useState } from "react";
 
-const Trainers = () => {
+const TopTrainers = () => {
   const [trainers, setTrainers] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -12,10 +14,11 @@ const Trainers = () => {
       });
   }, []);
   return (
-    <div className="">
-      <div className="grid grid-cols-3 pt-28">
-        {trainers.map((trainer) => (
-          <div className="card w-96 bg-base-100 mx-auto shadow-xl">
+    <div className="mx-auto">
+      <h3 className="text-center font-semibold text-3xl">Our Top Trainers</h3>
+      <div className="grid grid-cols-3 pt-10 gap-4">
+        {trainers.slice(0, 6).map((trainer) => (
+          <div className="card w-96 bg-base-100 mx-auto gap-5 shadow-xl h-[400px]">
             <figure>
               <img src={trainer.image} alt="Shoes" />
             </figure>
@@ -35,4 +38,4 @@ const Trainers = () => {
   );
 };
 
-export default Trainers;
+export default TopTrainers;
