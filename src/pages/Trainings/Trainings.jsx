@@ -1,20 +1,36 @@
+import { useEffect, useState } from "react";
+
 const Trainings = () => {
+  const [courses, setCourses] = useState([]);
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    fetch("http://localhost:5000/courses")
+      .then((res) => res.json())
+      .then((data) => {
+        setCourses(data);
+        setLoading(false);
+      });
+  }, []);
   return (
     <div className="">
-      <h3 className="pt-20">This is Trainings</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quas
-        tenetur adipisci rerum repellendus, nostrum vitae exercitationem! Magnam
-        quia eos, provident assumenda aut delectus eligendi enim porro neque
-        dignissimos odit alias. Ad, eos. Assumenda vitae, reiciendis adipisci
-        beatae atque tempora ipsum quasi ad quos accusantium enim impedit modi,
-        totam quam! Repellat culpa vel eos voluptatibus dolorum veniam quis vero
-        magnam. Accusantium, nemo. Corrupti reiciendis incidunt hic unde eum vel
-        provident exercitationem optio molestiae ex quisquam molestias nesciunt
-        repellendus libero mollitia non minus laboriosam error recusandae,
-        labore deserunt? Neque repudiandae ratione quisquam quidem corporis
-        sapiente officiis, eos, cumque, quia et culpa!
-      </p>
+      <div className="grid grid-cols-3 pt-28">
+        {courses.map((courses, index) => (
+          <div className="card w-96 bg-base-100 mx-auto shadow-xl">
+            <figure>
+              <img src={courses.image} alt="Shoes" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">{courses.courseName}</h2>
+              <h2 className="card-title">Trainer: {courses.trainerName}</h2>
+              <p>Price: {courses.price}$</p>
+              <p>Available seats: {courses.numberOfPlayers}</p>
+              <div className="card-actions justify-end">
+                <button className="btn btn-primary">Select</button>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

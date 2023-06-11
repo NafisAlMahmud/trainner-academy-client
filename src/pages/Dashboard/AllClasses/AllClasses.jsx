@@ -30,8 +30,6 @@ const AllClasses = () => {
               <th>{index + 1}</th>
               <td>{courses.courseName}</td>
               <td>{courses.description}</td>
-
-              <td></td>
             </tr>
           ))}
         </tbody>

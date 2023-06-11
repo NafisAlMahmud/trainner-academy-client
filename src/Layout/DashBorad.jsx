@@ -15,14 +15,20 @@ const DashBorad = () => {
   );
   const trainer = (
     <>
+      <h2 className="text-lg my-10">Trainer Section</h2>
       <NavLink to="/addClass">All Users</NavLink>
       <NavLink to="/myClass">All classes</NavLink>
+      <div className="divider"></div>
+      <NavLink to="/">Home</NavLink>
     </>
   );
   const student = (
     <>
-      <NavLink to="/selectedClasses">All Users</NavLink>
-      <NavLink to="/enrolledClasses">All classes</NavLink>
+      <h2 className="text-lg my-10">Student Section</h2>
+      <NavLink to="/selectedClasses">Selected Class</NavLink>
+      <NavLink to="/enrolledClasses">Enrolled Class</NavLink>
+      <div className="divider"></div>
+      <NavLink to="/">Home</NavLink>
     </>
   );
 

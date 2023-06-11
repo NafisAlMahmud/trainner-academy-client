@@ -3,7 +3,7 @@
     "courseName": "Dribbling Training Course",
     "description": "Master the art of dribbling and improve your ball control.",
     "numberOfPlayers": 20,
-    "image": "https://example.com/dribbling_course.jpg",
+    "image": "https://kaptivasportsacademy.com/wp-content/uploads/2020/07/KSA-CAMP-4.jpg",
     "trainerName": "John Doe",
     "price": 100
   },
@@ -11,7 +11,7 @@
     "courseName": "Shooting Training Course",
     "description": "Learn proper shooting techniques to increase your scoring ability.",
     "numberOfPlayers": 15,
-    "image": "https://example.com/shooting_course.jpg",
+    "image": "https://simplifaster.com/wp-content/uploads/2018/06/Football-Training.jpg",
     "trainerName": "Jane Smith",
     "price": 130
   },
@@ -19,7 +19,7 @@
     "courseName": "Goalkeeping Training Course",
     "description": "Enhance your goalkeeping skills and become a reliable goalkeeper.",
     "numberOfPlayers": 25,
-    "image": "https://example.com/goalkeeping_course.jpg",
+    "image": "https://cdn.shopify.com/s/files/1/1278/0725/articles/the-three-branches-of-football-training-807496.jpg?v=1615991957",
     "trainerName": "Mike Johnson",
     "price": 90
   },
@@ -27,7 +27,7 @@
     "courseName": "Tactical Training Course",
     "description": "Understand tactical concepts and strategies to excel on the field.",
     "numberOfPlayers": 30,
-    "image": "https://example.com/tactical_course.jpg",
+    "image": "https://evofitness.ch/wp-content/uploads/2018/07/functional-training-footballers-Entra%C3%AEnement-fonctionnel-footballers-Funktionelles-Training-Fu%C3%9Fballer-EVO-Fitness.jpg",
     "trainerName": "Alex Thompson",
     "price": 90
   },
@@ -35,7 +35,7 @@
     "courseName": "Passing Training Course",
     "description": "Improve your passing accuracy and decision-making skills.",
     "numberOfPlayers": 18,
-    "image": "https://example.com/passing_course.jpg",
+    "image": "https://i.ytimg.com/vi/6l05zOFtjPc/maxresdefault.jpg",
     "trainerName": "Emily Wilson",
     "price": 130
   },
@@ -43,7 +43,7 @@
     "courseName": "Fitness Training Course",
     "description": "Boost your fitness level and endurance for peak performance.",
     "numberOfPlayers": 20,
-    "image": "https://example.com/fitness_course.jpg",
+    "image": "https://contents.mediadecathlon.com/p1726392/k$06aeb56886b91a4580621cae0d8352b8/1800x0/3360pt2240/6720xcr3423/default.jpg?format=auto",
     "trainerName": "Chris Roberts",
     "price": 102
   },
@@ -59,7 +59,7 @@
     "courseName": "Set-Piece Training Course",
     "description": "Learn to execute set-pieces effectively and score from dead-ball situations.",
     "numberOfPlayers": 16,
-    "image": "https://example.com/set_piece_course.jpg",
+    "image": "https://assets.telegraphindia.com/telegraph/2022/Oct/1666856959_untitled-design-8.jpg",
     "trainerName": "Ryan Anderson",
     "price": 20
   },
@@ -67,7 +67,7 @@
     "courseName": "Speed and Agility Training Course",
     "description": "Enhance your speed, agility, and quickness on the field.",
     "numberOfPlayers": 20,
-    "image": "https://example.com/speed_agility_course.jpg",
+    "image": "https://www.insure4sport.co.uk/blog/wp-content/uploads/sites/9/2021/11/football-training-equipment-7-1024x664.jpg",
     "trainerName": "Sophia Lee",
     "price": 300
   },
@@ -75,7 +75,7 @@
     "courseName": "Youth Football Training Course",
     "description": "Designed for young aspiring footballers to develop their skills.",
     "numberOfPlayers": 25,
-    "image": "https://example.com/youth_training_course.jpg",
+    "image": "https://media.istockphoto.com/id/1181056837/photo/young-spanish-footballers-dribbling-around-cones-in-drill.jpg?s=612x612&w=0&k=20&c=A0gwQCWc6A1GJ_RqcxydpZc-MOfUVkn1oN5wk36TThU=",
     "trainerName": "David Wilson",
 
     "price": 300
