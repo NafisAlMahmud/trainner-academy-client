@@ -10,6 +10,9 @@ import DashBorad from "../Layout/DashBorad";
 import SelectedClass from "../pages/Dashboard/SelectedClass/SelectedClass";
 import MyClass from "../pages/Dashboard/MyClass/MyClass";
 import AllUsers from "../pages/Dashboard/AllUsers/AllUsers";
+import AllClasses from "../pages/Dashboard/AllClasses/AllClasses";
+import EnrolledClasses from "../pages/Dashboard/EnrolledClasses/EnrolledClasses";
+import AddClasses from "../pages/Dashboard/AddClasses/AddClasses";
 
 export const router = createBrowserRouter([
   {
@@ -57,6 +60,22 @@ export const router = createBrowserRouter([
       {
         path: "allUsers",
         element: <AllUsers></AllUsers>,
+      },
+      {
+        path: "allClasses",
+        element: <AllClasses></AllClasses>,
+      },
+      {
+        path: "selectedClasses",
+        element: <SelectedClass></SelectedClass>,
+      },
+      {
+        path: "enrolledClasses",
+        element: <EnrolledClasses></EnrolledClasses>,
+      },
+      {
+        path: "addClasses",
+        element: <AddClasses></AddClasses>,
       },
     ],
   },

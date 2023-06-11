@@ -20,7 +20,11 @@ const Signup = () => {
 
       updateUserProfile(data.name, data.photoURL)
         .then(() => {
-          const saveUser = { name: data.name, email: data.email };
+          const saveUser = {
+            name: data.name,
+            email: data.email,
+            role: "student",
+          };
           fetch("http://localhost:5000/users", {
             method: "POST",
             headers: {
@@ -49,9 +53,6 @@ const Signup = () => {
 
   return (
     <>
-      {/* <Helmet>
-              <title>Bistro Boss | Sign Up</title>
-          </Helmet> */}
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left">

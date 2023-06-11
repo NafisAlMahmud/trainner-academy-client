@@ -28,6 +28,25 @@ const AllUsers = () => {
         }
       });
   };
+  const handleMakeTrainer = (user) => {
+    fetch(`http://localhost:5000/users/admin/${user._id}`, {
+      method: "PATCH",
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        if (data.modifiedCount) {
+          refetch();
+          Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: `${user.name} is an Admin Now!`,
+            showConfirmButton: false,
+            timer: 1500,
+          });
+        }
+      });
+  };
 
   const handleDelete = (user) => {};
 
@@ -47,6 +66,7 @@ const AllUsers = () => {
                 <th>Name</th>
                 <th>Email</th>
                 <th>Role</th>
+                <th>Role</th>
                 <th>Action</th>
               </tr>
             </thead>
@@ -65,6 +85,19 @@ const AllUsers = () => {
                         className="btn btn-ghost bg-orange-600  text-white"
                       >
                         <FaUserShield></FaUserShield>
+                      </button>
+                    )}
+                  </td>
+                  <td>
+                    {user.role === "trainer" ? (
+                      "trainer"
+                    ) : (
+                      <button
+                        onClick={() => handleMakeTrainer(user)}
+                        className="btn btn-ghost bg-orange-600  text-white"
+                      >
+                        {/* <FaUserShield></FaUserShield> */}
+                        Make Trainer
                       </button>
                     )}
                   </td>

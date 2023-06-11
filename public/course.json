@@ -4,69 +4,80 @@
     "description": "Master the art of dribbling and improve your ball control.",
     "numberOfPlayers": 20,
     "image": "https://example.com/dribbling_course.jpg",
-    "trainerName": "John Doe"
+    "trainerName": "John Doe",
+    "price": 100
   },
   {
     "courseName": "Shooting Training Course",
     "description": "Learn proper shooting techniques to increase your scoring ability.",
     "numberOfPlayers": 15,
     "image": "https://example.com/shooting_course.jpg",
-    "trainerName": "Jane Smith"
+    "trainerName": "Jane Smith",
+    "price": 130
   },
   {
     "courseName": "Goalkeeping Training Course",
     "description": "Enhance your goalkeeping skills and become a reliable goalkeeper.",
     "numberOfPlayers": 25,
     "image": "https://example.com/goalkeeping_course.jpg",
-    "trainerName": "Mike Johnson"
+    "trainerName": "Mike Johnson",
+    "price": 90
   },
   {
     "courseName": "Tactical Training Course",
     "description": "Understand tactical concepts and strategies to excel on the field.",
     "numberOfPlayers": 30,
     "image": "https://example.com/tactical_course.jpg",
-    "trainerName": "Alex Thompson"
+    "trainerName": "Alex Thompson",
+    "price": 90
   },
   {
     "courseName": "Passing Training Course",
     "description": "Improve your passing accuracy and decision-making skills.",
     "numberOfPlayers": 18,
     "image": "https://example.com/passing_course.jpg",
-    "trainerName": "Emily Wilson"
+    "trainerName": "Emily Wilson",
+    "price": 130
   },
   {
     "courseName": "Fitness Training Course",
     "description": "Boost your fitness level and endurance for peak performance.",
     "numberOfPlayers": 20,
     "image": "https://example.com/fitness_course.jpg",
-    "trainerName": "Chris Roberts"
+    "trainerName": "Chris Roberts",
+    "price": 102
   },
   {
     "courseName": "Defensive Training Course",
     "description": "Develop defensive techniques and become a solid defender.",
     "numberOfPlayers": 22,
     "image": "https://example.com/defensive_course.jpg",
-    "trainerName": "Sarah Davis"
+    "trainerName": "Sarah Davis",
+    "price": 120
   },
   {
     "courseName": "Set-Piece Training Course",
     "description": "Learn to execute set-pieces effectively and score from dead-ball situations.",
     "numberOfPlayers": 16,
     "image": "https://example.com/set_piece_course.jpg",
-    "trainerName": "Ryan Anderson"
+    "trainerName": "Ryan Anderson",
+    "price": 20
   },
   {
     "courseName": "Speed and Agility Training Course",
     "description": "Enhance your speed, agility, and quickness on the field.",
     "numberOfPlayers": 20,
     "image": "https://example.com/speed_agility_course.jpg",
-    "trainerName": "Sophia Lee"
+    "trainerName": "Sophia Lee",
+    "price": 300
   },
   {
     "courseName": "Youth Football Training Course",
     "description": "Designed for young aspiring footballers to develop their skills.",
     "numberOfPlayers": 25,
     "image": "https://example.com/youth_training_course.jpg",
-    "trainerName": "David Wilson"
+    "trainerName": "David Wilson",
+
+    "price": 300
   }
 ]
