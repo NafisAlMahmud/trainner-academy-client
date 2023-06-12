@@ -3,6 +3,7 @@ import AboutUs from "../AboutUs/AboutUs";
 import Banner from "../Banner/Banner";
 import TopTrainers from "../TopTrainers/TopTrainers";
 import FeedBack from "../Feedback/FeedBack";
+import TopClasses from "../TopClasses/TopClasses";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
       </Helmet>
       <Banner></Banner>
       <AboutUs></AboutUs>
-      <FeedBack></FeedBack>
+      <TopClasses></TopClasses>
       <TopTrainers></TopTrainers>
     </div>
   );

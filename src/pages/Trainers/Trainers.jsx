@@ -26,7 +26,7 @@ const Trainers = () => {
             <div className="card-body">
               <h2 className="card-title">{trainer.name}</h2>
 
-              <p>Price: {trainer.email}$</p>
+              <p>{trainer.email}</p>
             </div>
           </div>
         ))}

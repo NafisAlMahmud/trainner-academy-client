@@ -14,7 +14,7 @@ const TopTrainers = () => {
       });
   }, []);
   return (
-    <div className="mx-auto">
+    <div className="mx-auto lg:mt-20">
       <h3 className="text-center font-semibold text-3xl">Our Top Trainers</h3>
       <div className="grid lg:grid-cols-3 lg:pt-10 gap-4">
         {trainers.slice(0, 6).map((trainer) => (
@@ -25,7 +25,7 @@ const TopTrainers = () => {
             <div className="card-body">
               <h2 className="card-title">{trainer.name}</h2>
 
-              <p>Price: {trainer.email}$</p>
+              <p>{trainer.email}</p>
             </div>
           </div>
         ))}

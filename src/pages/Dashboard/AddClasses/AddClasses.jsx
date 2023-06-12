@@ -76,6 +76,7 @@ const AddClasses = () => {
             </label>
             <label className="input-group">
               <input
+                disabled
                 defaultValue={user.displayName}
                 type="text"
                 name="trainerName"
@@ -85,7 +86,7 @@ const AddClasses = () => {
           </div>
         </div>
 
-        {/* category && details */}
+        {/* avilable players and email */}
         <div className="md:flex">
           <div className="form-control md:w-1/2">
             <label className="label">
@@ -107,6 +108,7 @@ const AddClasses = () => {
             </label>
             <label className="input-group">
               <input
+                disabled
                 type="email"
                 name="email"
                 defaultValue={user.email}
