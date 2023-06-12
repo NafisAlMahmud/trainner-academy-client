@@ -23,7 +23,7 @@ const AboutUs = () => {
             impact it can have on your performance. That's why we have assembled
             a team of highly qualified coaches and trainers who are passionate
             about the game and committed to helping you improve. Our training
-            programs are carefully designed to cover all aspects of football,
+            programs are carefully designed to cover aspects of football,
             including technical skills tactical knowledge, physical
             conditioning, and mental resilience.
           </p>
