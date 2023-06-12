@@ -44,4 +44,4 @@
 - react awsome frame motion
 - firebase and host
 
-- live site link:
+- live site link: https://trainer-academy-60c2b.web.app/
