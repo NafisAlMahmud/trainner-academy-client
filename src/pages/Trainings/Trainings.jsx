@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 
 const Trainings = () => {
   const [courses, setCourses] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("http://localhost:5000/courses")
+    fetch("https://trainer-academy-server.vercel.app/courses")
       .then((res) => res.json())
       .then((data) => {
         setCourses(data);
@@ -13,6 +14,9 @@ const Trainings = () => {
   }, []);
   return (
     <div className="">
+      <Helmet>
+        <title>Training | Trainer Academy </title>
+      </Helmet>
       <div className="grid grid-cols-3 pt-28">
         {courses.map((courses, index) => (
           <div className="card w-96 bg-base-100 mx-auto shadow-xl">

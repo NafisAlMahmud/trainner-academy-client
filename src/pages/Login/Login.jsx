@@ -4,6 +4,7 @@ import { useContext, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import SocialLogin from "./SocialLogin";
+import { Helmet } from "react-helmet";
 
 // import { Helmet } from "react-helmet-async";
 // import Swal from "sweetalert2";
@@ -55,9 +56,9 @@ const Login = () => {
 
   return (
     <>
-      {/* <Helmet>
-        <title>Bistro Boss | Login</title>
-      </Helmet> */}
+      <Helmet>
+        <title>Login | Trainer Academy </title>
+      </Helmet>
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col md:flex-row-reverse">
           <div className="text-center md:w-1/2 lg:text-left">

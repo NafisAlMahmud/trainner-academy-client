@@ -1,11 +1,11 @@
 [
   {
-    "name": "John Smith",
+    "name": "David Wilson",
     "image": "https://www.columbiatribune.com/gcdn/presto/2022/02/07/NCDT/ab6a6477-fbc5-4cb4-8ae6-d3ad42af2f5b-FLBpxWSXEAU9yYd.jpg",
     "email": "john.smith@example.com"
   },
   {
-    "name": "Emily Johnson",
+    "name": "Sophia Leea",
     "image": "https://oberlinreview.org/wp-content/uploads/2020/02/SteveOpgenorth_OCAthletics_WEB-900x648.jpeg",
     "email": "emily.johnson@example.com"
   },
@@ -31,7 +31,7 @@
   },
   {
     "name": "Daniel Martinez",
-    "image": "https://example.com/daniel_martinez.jpg",
+    "image": "https://wallpapers.com/images/hd/coach-pictures-9w5b30c844ayg0m3.jpg",
     "email": "daniel.martinez@example.com"
   },
   {

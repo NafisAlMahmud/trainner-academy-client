@@ -6,7 +6,7 @@ const AllClasses = () => {
   const [courses, setCourses] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("http://localhost:5000/courses")
+    fetch("https://trainer-academy-server.vercel.app/courses")
       .then((res) => res.json())
       .then((data) => {
         setCourses(data);

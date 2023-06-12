@@ -25,7 +25,7 @@ const Signup = () => {
             email: data.email,
             role: "student",
           };
-          fetch("http://localhost:5000/users", {
+          fetch("https://trainer-academy-server.vercel.app/users", {
             method: "POST",
             headers: {
               "content-type": "application/json",
@@ -53,6 +53,9 @@ const Signup = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Sign up| Trainer Academy </title>
+      </Helmet>
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left">
