@@ -9,10 +9,11 @@
 - And make a good folder stuctures for my website
 - Choose a css framework for my website.
 - Load my API data from server and fetch it.
-- Then show the data by using map and serch filter
+- Then show the data by using map and serch filter.
 - Choose a image for banner section and a text .
 - Then make a about us section and give a good description an da image for my website.
 - Then show 6 famous trainers
+- Then show 6 Popular classes
 - Then make a about us section and give a good description
 - Last but not least make a good and simple footer for my website.
 - Then make a details page for individual chefs and their recipe.
@@ -40,6 +41,6 @@
 - react form
 - react icons
 - react awsome frame motion
-- firebase
+- firebase and host
 
 - live site link:
