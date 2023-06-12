@@ -13,7 +13,7 @@ const AboutUs = () => {
         </div>
         <div className="md:w-3/4">
           <h2 className="font-bold text-3xl text-left ">About Us</h2>
-          <p className="pt-8">
+          <p className="pt-10">
             Welcome to our trainer academy website! We are providing a
             comprehensive platform for football enthusiasts of all ages and
             skill levels. Whether you're a beginner looking to learn the basics
