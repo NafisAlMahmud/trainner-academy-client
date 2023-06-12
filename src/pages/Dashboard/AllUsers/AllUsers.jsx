@@ -29,9 +29,12 @@ const AllUsers = () => {
       });
   };
   const handleMakeTrainer = (user) => {
-    fetch(`https://trainer-academy-server.vercel.app/users/admin/${user._id}`, {
-      method: "PATCH",
-    })
+    fetch(
+      `https://trainer-academy-server.vercel.app/users/trainer/${user._id}`,
+      {
+        method: "PATCH",
+      }
+    )
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

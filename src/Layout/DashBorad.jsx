@@ -17,8 +17,8 @@ const DashBorad = () => {
   const trainer = (
     <>
       <h2 className="text-lg my-10">Trainer Section</h2>
-      <NavLink to="/addClass">All Users</NavLink>
-      <NavLink to="/myClass">All classes</NavLink>
+      <NavLink to="addClasses">Add a Class</NavLink>
+      <NavLink to="myClass">My Classes</NavLink>
       <div className="divider"></div>
       <NavLink to="/">Home</NavLink>
     </>
@@ -26,8 +26,8 @@ const DashBorad = () => {
   const student = (
     <>
       <h2 className="text-lg my-10">Student Section</h2>
-      <NavLink to="/selectedClasses">Selected Class</NavLink>
-      <NavLink to="/enrolledClasses">Enrolled Class</NavLink>
+      <NavLink to="selectedClasses">Selected Class</NavLink>
+      <NavLink to="enrolledClasses">Enrolled Class</NavLink>
       <div className="divider"></div>
       <NavLink to="/">Home</NavLink>
     </>
@@ -38,7 +38,7 @@ const DashBorad = () => {
       <Helmet>
         <title>Dashboard | Trainer Academy </title>
       </Helmet>
-      <div className="drawer lg:drawer-open">
+      <div className="drawer lg:drawer-open ">
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col items-center justify-center">
           <Outlet></Outlet>
@@ -49,7 +49,7 @@ const DashBorad = () => {
             Open drawer
           </label>
         </div>
-        <div className="drawer-side">
+        <div className="drawer-side ">
           <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
           <ul className="menu p-4 w-80 h-full bg-base-200 text-base-content">
             {/* Sidebar content here */}

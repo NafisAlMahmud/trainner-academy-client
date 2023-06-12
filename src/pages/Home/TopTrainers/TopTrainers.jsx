@@ -16,7 +16,7 @@ const TopTrainers = () => {
   return (
     <div className="mx-auto">
       <h3 className="text-center font-semibold text-3xl">Our Top Trainers</h3>
-      <div className="grid grid-cols-3 pt-10 gap-4">
+      <div className="grid lg:grid-cols-3 lg:pt-10 gap-4">
         {trainers.slice(0, 6).map((trainer) => (
           <div className="card w-96 bg-base-100 mx-auto gap-5 shadow-xl h-[400px]">
             <figure>
