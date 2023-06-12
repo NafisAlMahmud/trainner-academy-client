@@ -37,9 +37,24 @@ const Banner = () => {
           alt="Slide 2"
         />
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-70 flex items-center justify-center">
-          <h2 className="text-white text-2xl">
-            Join us to Improve Your Football Skills
-          </h2>
+          <div className="w-2/4">
+            <Fade>
+              <h2 className="text-white text-6xl font-bold">
+                Join Us, Improve Your football Skills
+              </h2>
+            </Fade>
+
+            <Fade cascade damping={0.1}>
+              <p className="text-white pt-10">
+                What sets us apart is our focus on creating a supportive and
+                inclusive community. We believe that football is more than just
+                a sport; it's a shared passion that unites people from all walks
+                of life. Through our forums, discussion boards, and social media
+                channels, we encourage players, coaches, and fans to connect,
+                exchange knowledge, and inspire one another.
+              </p>
+            </Fade>
+          </div>
         </div>
       </div>
       <div className="relative">
@@ -48,9 +63,24 @@ const Banner = () => {
           alt="Slide 3"
         />
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-70 flex items-center justify-center">
-          <h2 className="text-white text-2xl">
-            Unlock Your True Potential on the Field
-          </h2>
+          <div className="w-2/4">
+            <Fade>
+              <h2 className="text-white text-6xl font-bold">
+                Unlock your potential relationship with Football
+              </h2>
+            </Fade>
+
+            <Fade cascade damping={0.1}>
+              <p className="text-white pt-10">
+                What sets us apart is our focus on creating a supportive and
+                inclusive community. We believe that football is more than just
+                a sport; it's a shared passion that unites people from all walks
+                of life. Through our forums, discussion boards, and social media
+                channels, we encourage players, coaches, and fans to connect,
+                exchange knowledge, and inspire one another.
+              </p>
+            </Fade>
+          </div>
         </div>
       </div>
     </Carousel>
