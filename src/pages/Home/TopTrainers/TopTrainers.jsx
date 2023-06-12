@@ -26,10 +26,6 @@ const TopTrainers = () => {
               <h2 className="card-title">{trainer.name}</h2>
 
               <p>Price: {trainer.email}$</p>
-
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Select</button>
-              </div>
             </div>
           </div>
         ))}
