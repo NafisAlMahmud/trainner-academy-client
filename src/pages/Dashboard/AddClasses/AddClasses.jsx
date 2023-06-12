@@ -4,6 +4,7 @@ import useAuth from "../../../hooks/useAuth";
 
 const AddClasses = () => {
   const { user, loading } = useAuth();
+
   const handleAddCourse = (event) => {
     event.preventDefault();
 
@@ -15,6 +16,7 @@ const AddClasses = () => {
     const description = form.description.value;
     const image = form.image.value;
     const price = form.price.value;
+    const email = form.email.value;
 
     const newClass = {
       courseName,
@@ -23,8 +25,10 @@ const AddClasses = () => {
       description,
       image,
       price,
+      email,
     };
     console.log(newClass);
+    console.log(user.name);
 
     // send data to server
     fetch("https://trainer-academy-server.vercel.app/addTraining", {
@@ -72,10 +76,9 @@ const AddClasses = () => {
             </label>
             <label className="input-group">
               <input
-                defaultValue={user.name}
+                defaultValue={user.displayName}
                 type="text"
                 name="trainerName"
-                placeholder="trainerName"
                 className="input input-bordered w-full"
               />
             </label>
@@ -94,6 +97,19 @@ const AddClasses = () => {
                 name="numberOfPlayers"
                 placeholder="
                 number of player"
+                className="input input-bordered w-full"
+              />
+            </label>
+          </div>
+          <div className="form-control md:w-1/2 ml-4">
+            <label className="label">
+              <span className="label-text">email</span>
+            </label>
+            <label className="input-group">
+              <input
+                type="email"
+                name="email"
+                defaultValue={user.email}
                 className="input input-bordered w-full"
               />
             </label>
