@@ -8,6 +8,7 @@
 - Then I move on to clinte site
 - And make a good folder stuctures for my website
 - Choose a css framework for my website.
+- Use tailwind and daisy ui
 - Load my API data from server and fetch it.
 - Then show the data by using map and serch filter.
 - Choose a image for banner section and a text .
@@ -20,7 +21,7 @@
 - Show all the recipes and their ingredients, rating and review
 - Then make a project file in firebase for authentication for my website.
 - Make a sign up and login components for my website,
-- Give them a good design and a good ui
+- Give them a good design and a good UI
 - Make the details components privet route
 - Deploy server in vercel and load API.
 - Deploy client site in firebase.and deploy server in vercel
