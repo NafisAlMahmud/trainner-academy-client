@@ -19,7 +19,7 @@ const AboutUs = () => {
             skill levels. Whether you're a beginner looking to learn the basics
             or an experienced player aiming to enhance your technique, we have
             the resources and expertise to help you achieve your goals. At our
-            website, we understand the importance of proper training and the
+            website, We understand the importance of proper training and the
             impact it can have on your performance. That's why we have assembled
             a team of highly qualified coaches and trainers who are passionate
             about the game and committed to helping you improve. Our training
